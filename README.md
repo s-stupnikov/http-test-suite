@@ -1,7 +1,7 @@
 Web server test suite
 =====================
 
-Implement a Web server. Libraries for helping manage TCP socket connections *may* be used (if server is asynchronous ). Libraries that implement any part of HTTP or multiprocessing model *must not* be used.
+Implement a Web server. Libraries for helping manage TCP socket connections *may* be used (if server is asynchronous [epoll](https://github.com/m13253/python-asyncore-epoll) *must* be used). Libraries that implement any part of HTTP or multiprocessing model *must not* be used.
 
 ## Requirements ##
 
