@@ -5,7 +5,7 @@ Implement a Web server. Libraries for helping manage TCP socket connections *may
 
 ## Requirements ##
 
-* Respond to `GET` with status code in `{200,404}`
+* Respond to `GET` with status code in `{200,403,404}`
 * Respond to `HEAD` with status code in `{200,404}`
 * Respond to all other request methods with status code `405`
 * Directory index file name `index.html`
