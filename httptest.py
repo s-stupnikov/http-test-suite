@@ -82,7 +82,7 @@ class HttpServer(unittest.TestCase):
       self.assertEqual(data, "bingo, you found it\n")
 
 
-  def test_file_with_query_string(self):
+  def test_file_with_slash(self):
     """slash after filename"""
     self.conn.request("GET", "/httptest/dir2/page.html/")
     r = self.conn.getresponse()
